@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../assets/fonts/roboto-slab/roboto-slab-latin-wght-normal.woff2")
+    format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #FAFAF9;
+}

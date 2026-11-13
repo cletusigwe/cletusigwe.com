@@ -1,0 +1,37 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <main class="mx-auto max-w-prose px-6 py-12 sm:py-16">
+    <img
+      src="/pfp.png"
+      alt="Cletus Igwe’s profile picture"
+      width="88"
+      height="88"
+      class="mb-6 size-22 rounded-full"
+    />
+    <h1 class="mb-4 text-xl font-medium leading-7">Cletus Igwe</h1>
+    <p class="text-base leading-relaxed">I love computers. Do you?</p>
+    <nav
+      aria-label="Contact"
+      class="mt-10 flex flex-wrap gap-x-5 gap-y-2 text-sm"
+    >
+      <a class="underline underline-offset-4" href="mailto:me@cletusigwe.com">
+        Email
+      </a>
+      <a
+        class="underline underline-offset-4"
+        href="https://x.com/0xcletusigwe"
+      >
+        Twitter
+      </a>
+      <a
+        class="underline underline-offset-4"
+        href="https://github.com/cletusigwe"
+      >
+        GitHub
+      </a>
+    </nav>
+  </main>
+</BaseLayout>
